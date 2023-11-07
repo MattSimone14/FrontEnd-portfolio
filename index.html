@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- favicon.ico -->
+	<title>TapIntoTitos</title>
 	<link rel="icon" href="favicon.ico">
 
 
@@ -28,20 +29,20 @@
 		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-	<title>TapIntoTitos</title>
+
 </head>
 
 <body>
 
 	<!-- Top of Page -->
-	<section class="white-section" id="title">
-		<div class="container-fluid">
+	<section class="white-section text-center" id="title">
+		<div class="container-fluid p-4">
 
 
 
 			<!-- NavBar -->
-			<nav class="navbar navbar-expand-lg" id="bar">
-				<a class="navbar-brand" href="">Tito's Work</a>
+			<nav class="navbar navbar-expand-lg p-3">
+				<a class="navbar-brand" href="index.html">Tito's Work</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 					aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +51,7 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="">PORTFOLIO</a>
+							<a class="nav-link" href="#features">PORTFOLIO</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="">CONTACT</a>
@@ -64,7 +65,7 @@
 			<div class="title">
 				<h1>Programer, Web Developer </h1>
 				<p>I design and code beautifully simple things, and I love what I do</p>
-				<img class="title-image" src="images/samos-modified.png" alt="profile-pic">
+				<img class="title-image" src="assets/images/samos-modified.png" alt="profile-pic">
 				<p></p>
 			</div>
 
@@ -75,55 +76,53 @@
 
 
 
-	<!-- About -->
-
-	<section>
-
-	</section>
-
-
-
-
 	<!-- Portfolio -->
 
-	<section class="colored-section" id="features">
+	<section class="colored-section p-4" id="features">
 		<div class="container-fluid">
+			<div class="p-1 text-center">
+				<h1>Check out my latest projects!</h1>
+			</div>
 			<div class="row">
-
-
-				<div class="col-md-4">
-					<div class="card">
-						<img src="images/Newsletter.PNG" class="card-img-one" alt="project 1">
-						<div class="card-body">
-							<h5 class="card-title">Email Sign-up</h5>
-							<p class="card-text">Full-stack API project</p>
+				<div class="col-md-4 p-3">
+					<div class="card p-3">
+						<img src="assets/images/Hawk.png" class="card-img-one img-fluid" alt="project 1">
+						<div class="card-body text-center">
+							<h5 class="card-title">Website for HandyMan</h5>
+							<p class="card-text">Front-End Project</p>
 							<a href="https://github.com/MattSimone14/EmailSign-up" class="btn btn-primary">GitHub</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class="card">
-						<img src="images/weather.PNG" class="card-img-two" alt="project 2">
-						<div class="card-body">
-							<h5 class="card-title">Weather Project</h5>
-							<p class="card-text">API project</p>
+				<div class="col-md-4 p-3">
+					<div class="card p-3">
+						<img src="assets/images/mondrian.PNG" class="card-img-two img-fluid" alt="project 2">
+						<div class="card-body text-center">
+							<h5 class="card-title">Mondrian Painting</h5>
+							<p class="card-text">CSS project</p>
 							<a href="https://github.com/MattSimone14/WeatherProject" class="btn btn-primary">GitHub</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class="card">
-						<img src="images/SimonSays.PNG" class="card-img-three" alt="project 3">
-						<div class="card-body">
-							<h5 class="card-title">Simon-Game</h5>
-							<p class="card-text">Simon says game using JQuery</p>
+				<div class="col-md-4 p-3">
+					<div class="card p-3">
+						<img src="assets/images/pricing.png" class="card-img-three img-fluid" alt="project 3">
+						<div class="card-body text-center">
+							<h5 class="card-title">Pricing Table</h5>
+							<p class="card-text">CSS project</p>
 							<a href="https://github.com/MattSimone14/Simon-Game" class="btn btn-primary">Github</a>
 						</div>
 					</div>
 				</div>
 
+				<div class="p-1 text-center">
+					<h1>Click here to check out my latest projects!</h1>
+					<a href="./public/portfolio.html">
+						<button type="button" class="btn btn-primary">Portfolio</button>
+					</a>
+				</div>
 
 			</div>
 		</div>
@@ -133,17 +132,17 @@
 
 	<!-- Footer -->
 
-	<footer class="colored-section" id="title">
+	<footer class="colored-section p-3" id="title">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-6" id="copyright">
+				<div class="col-md-6 text-center text-md-start" id="copyright">
 					<p>&copy; 2023 Your Company. All rights reserved.</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 text-center">
 					<ul class="text-md-end">
-						<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com/in/matthew-simone-6b1028158/"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/MattSimone14"><i class="fab fa-github"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/wagonhunter123"><i class="fab fa-twitter"></i></a></li>
 					</ul>
 				</div>
 			</div>
