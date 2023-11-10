@@ -63,9 +63,11 @@
 
 			<!-- Title -->
 			<div class="title">
-				<h1>Programer, Web Developer </h1>
-				<p>I design and code beautifully simple things, and I love what I do</p>
-				<img class="title-image" src="assets/images/samos-modified.png" alt="profile-pic">
+				<div class="fw-bold" id="footer">
+					<h1>Programer, Web Developer </h1>
+					<p>I design and code beautifully simple things, and I love what I do</p>
+				</div>
+				<img class="title-image" src="assets/images/profile-pic1.png" alt="profile-pic">
 				<p></p>
 			</div>
 
@@ -86,7 +88,7 @@
 			<div class="row">
 				<div class="col-md-4 p-3">
 					<div class="card p-3">
-						<img src="assets/images/Hawk.PNG" class="card-img-one img-fluid" alt="project 1">
+						<img src="assets/images/Hawk1.PNG" class="card-img-one img-fluid" alt="project 1">
 						<div class="card-body text-center">
 							<h5 class="card-title">Website for HandyMan</h5>
 							<p class="card-text">Front-End Project</p>
@@ -98,10 +100,10 @@
 
 				<div class="col-md-4 p-3">
 					<div class="card p-3">
-						<img src="assets/images/mondrian.PNG" class="card-img-two img-fluid" alt="project 2">
+						<img src="assets/images/mondrian1.PNG" class="card-img-two img-fluid" alt="project 2">
 						<div class="card-body text-center">
 							<h5 class="card-title">Mondrian Painting</h5>
-							<p class="card-text">CSS project</p>
+							<p class="card-text">CSS project using the Grid layout</p>
 							<a href="https://mattsimone14.github.io/MondrianPainting/"
 								class="btn btn-primary">Project</a>
 							<a href="https://github.com/MattSimone14/MondrianPainting"
@@ -112,10 +114,10 @@
 
 				<div class="col-md-4 p-3">
 					<div class="card p-3">
-						<img src="assets/images/pricing.PNG" class="card-img-three img-fluid" alt="project 3">
+						<img src="assets/images/pricing1.PNG" class="card-img-three img-fluid" alt="project 3">
 						<div class="card-body text-center">
 							<h5 class="card-title">Pricing Table</h5>
-							<p class="card-text">CSS project</p>
+							<p class="card-text">CSS project using Flexbox</p>
 							<a href="https://mattsimone14.github.io/PricingTable/" class="btn btn-primary">Project</a>
 							<a href="https://github.com/MattSimone14/PricingTable" class="btn btn-primary">Github</a>
 						</div>
@@ -135,26 +137,28 @@
 
 
 	<!-- Contact -->
-	<section class="p-4" id="contact">
+	<section class="p-4" id="title">
 		<div class="container-sm">
-			<h1>Contact Us</h1>
-			<form>
+			<h1>Contact Me</h1>
+			<form action="mailto:matt.simone14@yahoo.com" method="post" enctype="text/plain">
+
 				<div class="mb-3">
-					<label for="name" class="form-label">Name</label>
-					<input type="text" class="form-control" id="name" placeholder="Your Name" required>
+					<label for="name" class="form-label">Name:</label>
+					<input type="text" class="form-control" id="name" name="name" required>
 				</div>
 
 				<div class="mb-3">
-					<label for="email" class="form-label">Email</label>
-					<input type="email" class="form-control" id="email" placeholder="Your Email" required>
+					<label for="email" class="form-label">Email:</label>
+					<input type="email" class="form-control" id="email" name="email" required>
 				</div>
 
 				<div class="mb-3">
-					<label for="message" class="form-label">Message</label>
-					<textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+					<label for="message" class="form-label">Message:</label>
+					<textarea class="form-control" id="message" name="message" rows="4" required></textarea>
 				</div>
 
 				<button type="submit" class="btn btn-primary">Submit</button>
+
 			</form>
 		</div>
 	</section>
@@ -165,23 +169,22 @@
 
 	<footer class="p-3" id="features">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 text-center text-md-start" id="copyright">
-					<p>&copy; 2023 Your Company. All rights reserved.</p>
+			<div class="row" id="footer">
+				<div class="text-center">
+					<a href="https://www.linkedin.com/in/matthew-simone-6b1028158/"><i
+							class="fab fa-linkedin-in"></i></a>
+					<a href="https://github.com/MattSimone14"><i class="fab fa-github"></i></a>
+					<a href="https://twitter.com/wagonhunter123"><i class="fab fa-twitter"></i></a>
 				</div>
-				<div class="col-md-6 text-center">
-					<ul class="text-md-end">
-						<li class="list-inline-item"><a href="https://www.linkedin.com/in/matthew-simone-6b1028158/"><i
-									class="fab fa-linkedin-in"></i></a></li>
-						<li class="list-inline-item"><a href="https://github.com/MattSimone14"><i
-									class="fab fa-github"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/wagonhunter123"><i
-									class="fab fa-twitter"></i></a></li>
-					</ul>
+				<div class="text-center p-2">
+					<p>&copy; 2023 TapIntoTitos</p>
 				</div>
 			</div>
 		</div>
 	</footer>
+
+
+
 
 
 

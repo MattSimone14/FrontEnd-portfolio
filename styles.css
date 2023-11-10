@@ -6,20 +6,20 @@ h1 {
 
 /* IDs */
 #title {
-	background-color: #fff;
+	background-color: #CDF5FD;
 
 }
 
 
 #features {
-	background-color: #11c4f5;
+	background-color: #00A9FF;
 }
 
 
 
-#copyright {
+#footer {
 
-	color: #ff6600;
+	color: #89CFF3;
 }
 
 
@@ -27,7 +27,7 @@ h1 {
 /* NavBar */
 
 .navbar-brand {
-	color: #ff6600;
+	color: #89CFF3;
 	transition: color 0.3s;
 	font-weight: bold;
 	font-size: 2rem;
@@ -35,7 +35,7 @@ h1 {
 }
 
 .navbar-nav .nav-item .nav-link {
-	color: #ff6600;
+	color: #89CFF3;
 	transition: color 0.3s;
 	font-weight: bold;
 	font-size: 1rem;
@@ -44,12 +44,12 @@ h1 {
 
 
 .navbar-brand:hover {
-	color: #11c4f5;
+	color: #00A9FF;
 }
 
 
 .navbar-nav .nav-item .nav-link:hover {
-	color: #11c4f5;
+	color: #00A9FF;
 }
 
 
@@ -57,5 +57,5 @@ h1 {
 /* Footer */
 
 i {
-	color: #ff6600;
+	color: #89CFF3;
 }
