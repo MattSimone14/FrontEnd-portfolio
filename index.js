@@ -73,7 +73,7 @@ const PortfolioProjectsData = [
 
     },
     {
-        imageSrc: 'assets/images/Bdayinvite1.png',
+        imageSrc: 'assets/images/BdayInvite1.png',
         description: 'HTML website using anchor tags and image Elements',
         websiteLink: 'https://mattsimone14.github.io/BirthdayInvite/',
         githubLink: 'https://github.com/MattSimone14/BirthdayInvite',
